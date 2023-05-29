@@ -1,0 +1,199 @@
+/* Pinegrow generated Design Panel Init Begin */
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900|Kalam:300,400,700&display=swap');
+
+/* Pinegrow generated Design Panel Init End */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+Inspired by Material Design https://m3.material.io/styles/color/the-color-system/tokens 
+  - Idea is to avoid writing both light & dark pairs in template elements, and instead use the below set of custom classes that adapts to both light & dark modes.
+  - "on-primary" is the color of the content (text, icons etc) on a "primary" element, and so on.
+  - Similar to primary, other colors like secondary, tertiary, succcess, warning, error, info can also be created (in which case, a custom tailwind plugin is better to add such repetitive combos).
+*/
+
+@layer components {
+  /* Primary - Prominent components, High emphasis, for eg, FAB, buttons, active states, etc */
+  .pg-primary {
+    @apply bg-primary-600 dark:bg-primary-200;
+  }
+  .pg-primary-text {
+    @apply text-primary-600 dark:text-primary-200;
+  }
+  .pg-on-primary {
+    @apply bg-white dark:bg-primary-800;
+  }
+  .pg-on-primary-text {
+    @apply text-white dark:text-primary-800;
+  }
+
+  /* Inverse between light & dark tones are useful sometimes */
+  .pg-inverse-primary {
+    @apply bg-primary-200 dark:bg-primary-600;
+  }
+  .pg-inverse-primary-text {
+    @apply text-primary-200 dark:text-primary-600;
+  }
+
+  /* Primary Container - Prominent components, but relatively lesser emphasis than primary */
+  .pg-primary-container {
+    @apply bg-primary-100 dark:bg-primary-700;
+  }
+  .pg-primary-container-text {
+    @apply text-primary-100 dark:text-primary-700;
+  }
+  .pg-on-primary-container {
+    @apply bg-primary-900 dark:bg-primary-100;
+  }
+  .pg-on-primary-container-text {
+    @apply text-primary-900 dark:text-primary-100;
+  }
+
+  /* Secondary - Lesser Prominent components, High emphasis, for eg, filter chips, etc */
+  .pg-secondary {
+    @apply bg-secondary-600 dark:bg-secondary-200;
+  }
+  .pg-secondary-text {
+    @apply text-secondary-600 dark:text-secondary-200;
+  }
+  .pg-on-secondary {
+    @apply bg-white dark:bg-secondary-800;
+  }
+  .pg-on-secondary-text {
+    @apply text-white dark:text-secondary-800;
+  }
+
+  /* Surface - contained areas distinguishing them from a background and other on-screen elements. */
+  .pg-surface {
+    @apply bg-white dark:bg-neutral-950;
+  }
+  .pg-surface-text {
+    @apply text-white dark:text-neutral-950;
+  }
+  .pg-on-surface {
+    @apply bg-neutral-900 dark:bg-neutral-50;
+  }
+  .pg-on-surface-text {
+    @apply text-neutral-900 dark:text-neutral-50;
+  }
+
+  /* Surface Container - Surface components, but relatively lesser emphasis than base surface */
+  .pg-surface-container {
+    @apply bg-neutral-50 dark:bg-neutral-900;
+  }
+  .pg-surface-container-text {
+    @apply text-neutral-50 dark:text-neutral-900;
+  }
+  .pg-on-surface-container {
+    @apply bg-neutral-900 dark:bg-neutral-100;
+  }
+  .pg-on-surface-container-text {
+    @apply text-neutral-900 dark:text-neutral-100;
+  }
+
+  /* Surface Variant - Surface components, but relatively lesser emphasis than surface container */
+  .pg-surface-variant {
+    @apply bg-neutral-100 dark:bg-neutral-700;
+  }
+  .pg-surface-variant-text {
+    @apply text-neutral-100 dark:text-neutral-700;
+  }
+  .pg-on-surface-variant {
+    @apply bg-neutral-700 dark:bg-neutral-200;
+  }
+  .pg-on-surface-variant-text {
+    @apply text-neutral-700 dark:text-neutral-200;
+  }
+
+  /* Outline/borders - Creates boundaries and emphasis. They generally have 3:1 contrast (neutral-variant) with all surface colors */
+  /* .pg-outline {
+        @apply border-neutral-variant-50 dark:border-neutral-variant-60;
+      } */
+
+  /* Outline Variant - Creates boundaries and emphasis for decorative elements such as dividers */
+  /* .pg-outline-variant {
+        @apply border-neutral-variant-80 dark:border-neutral-variant-30;
+      } */
+
+  /* .pg-shadow {
+        @apply bg-black;
+      }
+      .pg-shadow-text {
+        @apply text-black;
+      } */
+
+  .pg-scrim {
+    @apply bg-black;
+  }
+  .pg-scrim-text {
+    @apply text-black;
+  }
+}
+
+@layer base {
+  h1 {
+    @apply text-4xl font-bold md:text-5xl lg:text-6xl  tracking-tight;
+  }
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold mb-4 scroll-mt-28;
+  }
+  h3 {
+    @apply text-2xl md:text-3xl lg:text-4xl font-bold mb-2 scroll-mt-28;
+  }
+  h4 {
+    @apply text-xl md:text-2xl lg:text-3xl font-semibold mb-2 scroll-mt-28;
+  }
+  h5 {
+    @apply text-base md:text-lg lg:text-xl font-medium mb-2 scroll-mt-28;
+  }
+  h6 {
+    @apply text-sm md:text-base lg:text-lg font-medium mb-2 scroll-mt-28;
+  }
+
+  input,
+  optgroup,
+  select,
+  textarea {
+    @apply text-black;
+  }
+}
+
+/* Pinegrow generated Design Panel Extra Rules Begin */
+
+.poster {
+  z-index: 0;
+}
+
+.poster:before {
+  background-image: url(https://images.unsplash.com/photo-1563387852576-964bc31b73af?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDE0fHx3YWxscGFwZXJ8ZW58MHx8fHwxNjg0MDMwOTQ5fDA&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1200&fit=max) !important;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  content: ' ';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  filter: blur(0px);
+}
+
+body.poster:before {
+  position: fixed;
+}
+@media (min-width: 1440px),
+  (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2),
+  (min-width: 992px) and (min-resolution: 192dpi) {
+  .poster:before {
+    background-image: url(https://images.unsplash.com/photo-1563387852576-964bc31b73af?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDE0fHx3YWxscGFwZXJ8ZW58MHx8fHwxNjg0MDMwOTQ5fDA&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=2000&fit=max) !important;
+  }
+}
+body,
+html {
+  min-height: 100vh;
+}
+
+/* Pinegrow generated Design Panel Extra Rules End */
