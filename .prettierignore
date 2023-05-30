@@ -20,16 +20,18 @@ coverage
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
+!.vscode/settings.json
 .idea
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-/*.d.ts
-  
+
 #Pinegrow
 _pgbackup
 _pginfo
 #optional
-pinegrow.json 
+pinegrow.json
+*.d.ts
+!shims.d.ts

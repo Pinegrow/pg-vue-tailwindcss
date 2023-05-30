@@ -17,7 +17,7 @@
   })
 </script>
 <template>
-  <div class="sm:flex sm:justify-end">
+  <div>
     <div
       v-if="isMobileMenuOpen"
       class="sm:min-w-[200px] rounded-lg shadow overflow-hidden pg-surface pg-on-surface-text px-4 py-5 sm:p-6"

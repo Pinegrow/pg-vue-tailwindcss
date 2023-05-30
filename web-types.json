@@ -7,18 +7,6 @@
     "html": {
       "elements": [
         {
-          "name": "ExternalComponent1"
-        },
-        {
-          "name": "ExternalComponent2",
-          "attributes": [
-            {
-              "name": "label",
-              "placeholder": "Click Me"
-            }
-          ]
-        },
-        {
           "name": "BaseButton",
           "attributes": [
             {

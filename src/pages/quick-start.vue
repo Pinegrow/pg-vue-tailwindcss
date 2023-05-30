@@ -25,12 +25,11 @@
           <h6 class="mt-2">Github repo for this template</h6>
           <BaseButton
             size="xs"
-            class="ml-2 pg-primary-container-text"
-            color="gray"
+            class="ml-2"
+            color="secondary"
             to="https://github.com/pinegrow/pg-vue-tailwindcss"
             target="_blank"
-          >
-            <span>Click here</span>
+            ><span>Click here</span>
           </BaseButton>
         </div>
       </div>

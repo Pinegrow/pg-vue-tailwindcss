@@ -25,14 +25,14 @@
             <NavBarDesktopTabs
               :navlinks="desktopNavTabs"
               :current-path="currentPath"
-              class="h-full"
+              class="hidden sm:flex sm:ml-6"
             />
           </div>
           <DarkModeSwitch />
           <div class="-mr-2 items-center relative">
             <NavBarMobileMenuButton v-if="mobileNavTabs.length" />
             <NavBarMobileMenu
-              class="hidden sm:block absolute right-0 mt-4"
+              class="hidden sm:flex sm:justify-end absolute right-0 mt-4"
               :navlinks="mobileNavTabs"
               :current-path="currentPath"
             />
