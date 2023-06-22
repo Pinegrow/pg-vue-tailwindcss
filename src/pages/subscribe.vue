@@ -27,19 +27,21 @@
             </p>
             <form
               class="mx-auto sm:w-9/12 xl:w-8/12"
-              action="https://www.getdrip.com/forms/8855293/submissions"
+              action="https://www.getdrip.com/forms/243852739/submissions"
               method="post"
               target="_blank"
               rel="noopener"
-              data-drip-embedded-form="8855293"
+              data-drip-embedded-form="243852739"
             >
               <div class="flex items-center overflow-hidden p-2 rounded-full">
                 <label for="emailfield" class="sr-only">Email address:</label>
                 <input
+                  id="emailfield"
                   class="border-0 flex-1 outline-none px-5 py-2 rounded-full w-full"
                   placeholder="email@example.com"
                   type="email"
                   required
+                  name="fields[email]"
                 />
                 <BaseButton
                   type="submit"

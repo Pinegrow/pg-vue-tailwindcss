@@ -30,7 +30,11 @@
           </div>
           <DarkModeSwitch />
           <div class="-mr-2 items-center relative">
-            <NavBarMobileMenuButton v-if="mobileNavTabs.length" />
+            <NavBarMobileMenuButton
+              v-if="mobileNavTabs.length"
+              class="hidden sm:block"
+            />
+            <NavBarMobileMenuButton v-if="navlinks.length" class="sm:hidden" />
             <NavBarMobileMenu
               class="hidden sm:flex sm:justify-end absolute right-0 mt-4"
               :navlinks="mobileNavTabs"

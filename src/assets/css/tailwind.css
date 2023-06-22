@@ -1,7 +1,8 @@
 /* Pinegrow generated Design Panel Init Begin */
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900|Kalam:300,400,700&display=swap');
 
-/* Pinegrow generated Design Panel Init End */
+
+    /* Pinegrow generated Design Panel Init End */
 
 @tailwind base;
 @tailwind components;
@@ -163,37 +164,34 @@ Inspired by Material Design https://m3.material.io/styles/color/the-color-system
 /* Pinegrow generated Design Panel Extra Rules Begin */
 
 .poster {
-  z-index: 0;
+    z-index: 0;
 }
 
 .poster:before {
-  background-image: url(https://images.unsplash.com/photo-1563387852576-964bc31b73af?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDE0fHx3YWxscGFwZXJ8ZW58MHx8fHwxNjg0MDMwOTQ5fDA&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1200&fit=max) !important;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  content: ' ';
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  position: absolute;
-  filter: blur(0px);
+    background-image: url(https://images.unsplash.com/photo-1563387852576-964bc31b73af?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDE0fHx3YWxscGFwZXJ8ZW58MHx8fHwxNjg0MDMwOTQ5fDA&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1200&fit=max)!important;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    content: ' ';
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    position: absolute;
+    filter: blur(0px);
 }
 
 body.poster:before {
-  position: fixed;
+position: fixed;
+}                        
+@media (min-width: 1440px), (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 992px) and (min-resolution: 192dpi) {
+    .poster:before {                        
+        background-image: url(https://images.unsplash.com/photo-1563387852576-964bc31b73af?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDE0fHx3YWxscGFwZXJ8ZW58MHx8fHwxNjg0MDMwOTQ5fDA&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=2000&fit=max)!important;         
+    }                           
 }
-@media (min-width: 1440px),
-  (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2),
-  (min-width: 992px) and (min-resolution: 192dpi) {
-  .poster:before {
-    background-image: url(https://images.unsplash.com/photo-1563387852576-964bc31b73af?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDE0fHx3YWxscGFwZXJ8ZW58MHx8fHwxNjg0MDMwOTQ5fDA&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=2000&fit=max) !important;
-  }
-}
-body,
-html {
-  min-height: 100vh;
+body, html {
+    min-height: 100vh;
 }
 
-/* Pinegrow generated Design Panel Extra Rules End */
+    /* Pinegrow generated Design Panel Extra Rules End */

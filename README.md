@@ -4,13 +4,13 @@ This is a starter template that pre-includes the [Pinegrow Vite Plugin](https://
 
 ## Vue Designer
 
-A desktop drag-and-drop editor for Vue apps supporting Mac, Windows and Linux by [Pinegrow](https://pinegrow.com/).
+A desktop visual editor for Vue apps supporting Mac, Windows, and Linux by [Pinegrow](https://pinegrow.com/). Take it for a free trial at [Vue Designer](https://pinegrow.com/vue-designer)!
 
-It let's you visually design 🎨 your Vue single file components and boosts your productivity and your creativity while building your component-based Vue apps.
+It lets you visually design 🎨 your Vue single file components and boosts your productivity and creativity while building your component-based Vue apps.
 
-It smartly integrates with your ⚡️ [Vite](https://vitejs.dev/) based CLI, and provides an amazing deverloper experience with it's powerful visual controls and features.
+It smartly integrates with your ⚡️ [Vite](https://vitejs.dev/) based CLI and provides an amazing developer experience with its powerful visual controls and features.
 
-Clean code 😃, No lock-in - Pinegrow Vue Designer is an open-tool ❤️
+Clean code 😃, No lock-in - You are in control of your projects and development workflow ❤️
 
 ## Try it now!
 
@@ -30,7 +30,7 @@ npm install #or use pnpm
 
 ## 2. Open in Vue Designer
 
-Open your project in Vue Designer, and follow the instructions displayed in the Config Panel (that should pop-out automatically). Config Panel ⚙️ displays the key packages and the various links to their individual ecosystem and community.
+Open your project in Vue Designer and follow the instructions displayed in the Config Panel (that should pop out automatically). Config Panel ⚙️ displays the key packages and the various links to their individual ecosystems and communities.
 
 ## Usage
 
@@ -54,9 +54,10 @@ npm run build # SPA
 
 And you will see the generated file in `dist` that's ready to be served.
 
-### Deploy on Netlify
+### Deploy to Netlify
 
-Go to [Netlify](https://app.netlify.com/start) and select your clone, `OK` along the way, and your app will be live in a minute.
+You can deploy this repo as a site on your own to explore and experiment with, by clicking this button.
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/pinegrow/pg-vue-tailwindcss)
 
 Check out the [deployment documentation](https://vitejs.dev/guide/static-deploy.html#netlify) for more information.
 
@@ -71,18 +72,18 @@ Check out the [deployment documentation](https://vitejs.dev/guide/static-deploy.
 
 - [Tailwind CSS](https://tailwindcss.com/docs/guides/vite#vue) - The amazing utility-first CSS framework.
 
-### Filed-based CMS (markdown)
+### File-based CMS (markdown)
 
-- [Vite-plugin-vue-markdown](https://github.com/mdit-vue/vite-plugin-vue-markdown) - file-based CMS for powered by Markdown & Vue components. Note: This page is a markdown file 🗒.
+- [Vite-plugin-vue-markdown](https://github.com/mdit-vue/vite-plugin-vue-markdown) - file-based CMS powered by Markdown & Vue components. Note: This page is a markdown file 🗒.
 
 ### Icons
 
-- [UnoCSS Preset Icons](https://github.com/unocss/unocss/tree/main/packages/preset-icons/) - use over 100,000 open-source [Iconify](https://iconify.design/) icons. Uses the **unocss** format for icon names, for eg, `i-mdi-home`.
+- [UnoCSS Preset Icons](https://github.com/unocss/unocss/tree/main/packages/preset-icons/) - use over 100,000 open-source [Iconify](https://iconify.design/) icons. Uses the **unocss** format for icon names, for example, `i-mdi-home`.
 
 ### Modules/Plugins
 
 - [VueUse](https://vueuse.org/) - collection of essential Vue composition utilities.
-- [Pinegrow Vite Plugin](https://www.npmjs.com/package/@pinegrow/vite-plugin) - enables you to live-design your Vue single-file-components visually in Vue Designer.
+- [Pinegrow Vite Plugin](https://www.npmjs.com/package/@pinegrow/vite-plugin) - enables you to live-design your Vue single-file components visually in Vue Designer.
 - [Pinegrow Tailwind CSS Plugin](https://www.npmjs.com/package/@pinegrow/tailwindcss-plugin) - via Design Panel, enables visual controls customization (automatic) and theme customization (optional).
 
 ### Devtools
@@ -106,7 +107,7 @@ Check out the [deployment documentation](https://vitejs.dev/guide/static-deploy.
 
 ### Typescript
 
-Allows JS & strict mode is turned off. Update `tsconfig.ts` as required.
+This project allows JS, and strict mode is turned off. Update `tsconfig.ts` as required.
 
 ```json
 {
@@ -120,4 +121,4 @@ Allows JS & strict mode is turned off. Update `tsconfig.ts` as required.
 
 ## Community
 
-- [Pinegrow Vue Designer](https://forum.pinegrow.com/vue-designer)
+- [Pinegrow Vue Designer](https://forum.pinegrow.com/c/vue-designer)
