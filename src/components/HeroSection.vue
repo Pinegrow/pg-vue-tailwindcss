@@ -18,7 +18,9 @@
           class="-mx-4 flex flex-wrap items-center justify-center lg:space-y-0 mt-24 space-y-6"
         >
           <div class="px-4 text-center w-full md:w-8/12 xl:w-6/12">
-            <h4 class="font-bold font-serif mb-1 pg-secondary-text uppercase">
+            <h4
+              class="font-bold font-serif mb-1 text-secondary-600 dark:text-secondary-200 uppercase"
+            >
               Welcome to
             </h4>
             <h1 class="capitalize leading-tight mb-2 text-white">

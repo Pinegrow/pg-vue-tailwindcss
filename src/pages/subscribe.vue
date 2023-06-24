@@ -14,7 +14,9 @@
   })
 </script>
 <template>
-  <div class="pb-12 text-center pg-primary pg-on-primary-text">
+  <div
+    class="pb-12 text-center bg-primary-600 dark:bg-primary-200 text-white dark:text-primary-800"
+  >
     <div class="container mx-auto px-4">
       <div class="-mx-4 flex flex-wrap">
         <div class="mx-auto px-4 rounded-2xl w-full lg:w-8/12">
