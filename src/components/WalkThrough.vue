@@ -57,7 +57,7 @@
               </li>
               <li class="mb-4">
                 <BaseButton
-                  to="https://pinegrow.com/support"
+                  to="https://pinegrow.com/docs/vue/support/"
                   external
                   target="_blank"
                   variant="link"
