@@ -74,7 +74,7 @@
             <ul class="text-center lg:mt-2 lg:text-left">
               <li class="mb-4">
                 <BaseButton
-                  to="https://pinegrow.com/vue-designer"
+                  to="https://vuedesigner.com"
                   external
                   target="_blank"
                   variant="link"
@@ -85,7 +85,7 @@
               </li>
               <li class="mb-4">
                 <BaseButton
-                  to="https://pinegrow.com/vue-designer/#buy"
+                  to="https://vuedesigner.com/#buy"
                   external
                   target="_blank"
                   variant="link"

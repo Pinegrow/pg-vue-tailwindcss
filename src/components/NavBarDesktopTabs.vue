@@ -31,7 +31,7 @@
     <BaseButton
       class="ml-3"
       target="_blank"
-      to="https://pinegrow.com/vue-designer"
+      to="https://vuedesigner.com"
       size="xl"
       icon="i-mdi-pine-tree"
       color="secondary"

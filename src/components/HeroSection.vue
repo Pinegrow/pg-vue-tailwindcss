@@ -32,7 +32,7 @@
             </h5>
             <BaseButton
               class="!rounded-3xl px-6 py-4"
-              to="https://pinegrow.com/vue-designer"
+              to="https://vuedesigner.com"
               trailing
               target="_blank"
               trailing-icon="i-material-symbols-open-in-new"
