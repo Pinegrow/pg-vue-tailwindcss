@@ -21,7 +21,10 @@ export default {
   safelist,
 
   get content() {
-    const _content = ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx,mdx}']
+    const _content = [
+      './index.html',
+      './src/**/*.{vue,svelte,astro,js,ts,jsx,tsx,md,mdx}',
+    ]
     return process.env.NODE_ENV === 'production'
       ? _content
       : [..._content, './_pginfo/**/*.{html,js}'] // used by Vue Desginer for live-designing during development

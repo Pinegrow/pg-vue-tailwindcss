@@ -84,9 +84,9 @@ Check out the [deployment documentation](https://vitejs.dev/guide/static-deploy.
 
 ### Modules/Plugins
 
-- [VueUse](https://vueuse.org/) - collection of essential Vue composition utilities.
 - [Pinegrow Vite Plugin](https://www.npmjs.com/package/@pinegrow/vite-plugin) - enables you to live-design your Vue single-file components visually in Vue Designer.
 - [Pinegrow Tailwind CSS Plugin](https://www.npmjs.com/package/@pinegrow/tailwindcss-plugin) - via Design Panel, enables visual controls customization (automatic) and theme customization (optional).
+- [VueUse](https://vueuse.org/) - collection of essential Vue composition utilities.
 
 ### Devtools
 
