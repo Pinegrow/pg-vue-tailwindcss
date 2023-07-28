@@ -13,7 +13,7 @@
         <div class="p-4 rounded-2xl shadow-xl">
           <div class="flex items-center justify-center pb-4 lg:justify-start">
             <h3 class="capitalize mb-0 text-primary-100 dark:text-primary-700">
-              Quick Walkthrough
+              Feature Walkthrough
             </h3>
           </div>
           <iframe
