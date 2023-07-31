@@ -15,14 +15,14 @@
           aria-label="facebook"
           external
           target="_blank"
-          ><BaseIcon width="24px" name="i-logos-facebook" />
+          ><BaseIcon height="24px" name="i-logos-facebook" />
         </a>
         <a
           href="https://twitter.com/vuedesigner"
           aria-label="twitter"
           external
           target="_blank"
-          ><BaseIcon width="24px" name="i-logos-twitter" />
+          ><BaseIcon height="24px" name="i-logos-twitter" />
         </a>
 
         <a
@@ -30,7 +30,7 @@
           aria-label="youtube"
           external
           target="_blank"
-          ><BaseIcon width="24px" name="i-logos-youtube-icon" />
+          ><BaseIcon height="24px" name="i-logos-youtube-icon" />
         </a>
       </div>
     </div>
