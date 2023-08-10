@@ -86,7 +86,6 @@ export default defineConfig({
         // 'src/stores',
       ],
       vueTemplate: true,
-      cache: true,
       dts: 'auto-imports.d.ts',
     }),
     AutoImportComponents({
