@@ -77,7 +77,7 @@ Check out the [deployment documentation](https://vitejs.dev/guide/static-deploy.
 
 ### File-based CMS (markdown)
 
-- [Vite-plugin-vue-markdown](https://github.com/mdit-vue/vite-plugin-vue-markdown) - file-based CMS powered by Markdown & Vue components. Note: This page is a markdown file 🗒.
+- [unplugin-vue-markdown](https://github.com/mdit-vue/unplugin-vue-markdown) - file-based CMS powered by Markdown & Vue components. Note: This page is a markdown file 🗒.
 
 ### Icons
 
