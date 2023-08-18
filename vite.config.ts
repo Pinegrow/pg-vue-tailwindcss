@@ -13,7 +13,7 @@ import presetIcons from '@unocss/preset-icons'
 import Markdown from 'vite-plugin-vue-markdown'
 import LinkAttributes from 'markdown-it-link-attributes'
 import Shiki from 'markdown-it-shiki'
-import VueDevTools from 'vite-plugin-vue-devtools'
+// import VueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -39,7 +39,7 @@ export default defineConfig({
       // routesFolder: 'src/pages', // default
       dts: 'typed-router.d.ts',
     }),
-    VueDevTools(),
+    // VueDevTools(),
     /* IMPORTANT: Vue must be placed after VueRouter()  */
     Vue({
       include: [/\.vue$/, /\.md$/],
