@@ -1,9 +1,9 @@
 <script setup lang="ts">
   import { computed } from 'vue'
-  import site from '~/site'
+  import site from '@/site'
   import { useHead, useSeoMeta } from 'unhead'
   import { useRoute } from 'vue-router/auto'
-  import { checkDarkTheme } from '~/composables/dark-color-scheme-check'
+  import checkDarkTheme from '@/composables/dark-color-scheme-check?raw'
   import type { Script } from '@unhead/schema'
   type TurboScript = Script & { once: true }
 

@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { useHead } from 'unhead'
-  import QuickStart from '~/content/index.md'
+  import QuickStart from '@/content/index.md'
 
   definePage({
     name: 'quick-start',

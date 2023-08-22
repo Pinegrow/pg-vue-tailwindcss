@@ -1,6 +1,6 @@
 import { useRouter, useRoute } from 'vue-router'
 import { computed } from 'vue'
-import site from '~/site'
+import site from '@/site'
 
 export const useNav = () => {
   const routes = useRouter().getRoutes()

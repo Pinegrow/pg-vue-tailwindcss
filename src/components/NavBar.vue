@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { computed } from 'vue'
-  import { useNav } from '~/composables/nav'
+  import { useNav } from '@/composables/nav'
   import { RouterLink } from 'vue-router'
 
   const { navlinks, currentPath } = useNav()
@@ -22,7 +22,7 @@
                 <h5 class="font-extrabold mb-0 ml-2">Vue Designer</h5>
               </RouterLink>
             </div>
-            <NavBarDesktopTabs
+            <NavBarDesktopMenu
               :navlinks="desktopNavTabs"
               :current-path="currentPath"
               class="hidden sm:flex sm:ml-6"
