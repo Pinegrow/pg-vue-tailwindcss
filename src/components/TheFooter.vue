@@ -26,6 +26,13 @@
         </a>
 
         <a
+          href="https://discord.gg/BYp45Nnu5T"
+          aria-label="discord"
+          external
+          target="_blank"
+          ><BaseIcon height="24px" name="i-logos-discord-icon" />
+        </a>
+        <a
           href="https://www.youtube.com/@vuedesigner"
           aria-label="youtube"
           external
