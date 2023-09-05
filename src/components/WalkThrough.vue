@@ -96,7 +96,7 @@
               </li>
               <li class="mb-4">
                 <BaseButton
-                  to="https://forum.pinegrow.com/c/vue-designer"
+                  to="https://discord.gg/BYp45Nnu5T"
                   external
                   target="_blank"
                   variant="link"
