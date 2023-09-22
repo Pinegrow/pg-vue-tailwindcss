@@ -21,7 +21,7 @@
                 <dmcolor key="info" color="#0288d1" shade-50="#ebf1f9" shade-100="#d0dff2" shade-200="#b4ccec" shade-300="#96bbe5" shade-400="#76a9df" shade-500="#5098d8" shade-600="#0288d1" shade-700="#027cbf" shade-800="#0271ae" shade-900="#02669d" shade-950="#015b8c" shade-DEFAULT="#5098d8"/>
             </dmdesignskill>
             <dmdesignskill skill="fonts" family_1="Fira Sans" family_2="Kalam"></dmdesignskill>
-            <dmdesignskill skill="background" image_for_colors advanced="true" filter_blur="0" filter_brightness="100" filter_contrast="100" filter_grayscale="0" filter_hue-rotate="0" filter_invert="0" filter_opacity="100" filter_saturate="100" filter_sepia="0" image="https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDE0N3x8d2FsbHBhcGVyfGVufDB8fHx8MTY4Mzg5ODAxNHww&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1200&fit=max" selector=".poster"></dmdesignskill>
+            <dmdesignskill skill="background" image_for_colors advanced="true" filter_blur="0" filter_brightness="100" filter_contrast="100" filter_grayscale="0" filter_hue-rotate="0" filter_invert="0" filter_opacity="100" filter_saturate="100" filter_sepia="0" image="https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDE0N3x8d2FsbHBhcGVyfGVufDB8fHx8MTY4Mzg5ODAxNHww&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1200&fit=max" selector=".poster" keyword="lakeside house"></dmdesignskill>
         </dmdesign>
         <dmdesign active>
             <dmdesignskill skill="tw.colors">
@@ -43,7 +43,7 @@
                 <dmcolor key="info" color="#0288d1" shade-50="#ebf1f9" shade-100="#d0dff2" shade-200="#b4ccec" shade-300="#96bbe5" shade-400="#76a9df" shade-500="#5098d8" shade-600="#0288d1" shade-700="#027cbf" shade-800="#0271ae" shade-900="#02669d" shade-950="#015b8c" shade-975="#015989" shade-DEFAULT="#5098d8"/>
             </dmdesignskill>
             <dmdesignskill skill="fonts" family_1="Fira Sans" family_2="Kalam"></dmdesignskill>
-            <dmdesignskill skill="background" image_for_colors advanced="true" filter_blur="0" filter_brightness="100" filter_contrast="100" filter_grayscale="0" filter_hue-rotate="0" filter_invert="0" filter_opacity="100" filter_saturate="100" filter_sepia="0" image="https://images.unsplash.com/photo-1563387852576-964bc31b73af?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDE0fHx3YWxscGFwZXJ8ZW58MHx8fHwxNjg0MDMwOTQ5fDA&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1200&fit=max" selector=".poster"></dmdesignskill>
+            <dmdesignskill skill="background" image_for_colors advanced="true" filter_blur="0" filter_brightness="100" filter_contrast="100" filter_grayscale="0" filter_hue-rotate="0" filter_invert="0" filter_opacity="100" filter_saturate="100" filter_sepia="0" image="https://images.unsplash.com/photo-1563387852576-964bc31b73af?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDE0fHx3YWxscGFwZXJ8ZW58MHx8fHwxNjg0MDMwOTQ5fDA&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1200&fit=max" selector=".poster" keyword="lakeside house"></dmdesignskill>
         </dmdesign>
         <dmdesign>
             <dmdesignskill skill="tw.colors">
@@ -65,7 +65,7 @@
                 <dmcolor key="info" color="#0288d1" shade-50="#ebf1f9" shade-100="#d0dff2" shade-200="#b4ccec" shade-300="#96bbe5" shade-400="#76a9df" shade-500="#5098d8" shade-600="#0288d1" shade-700="#027cbf" shade-800="#0271ae" shade-900="#02669d" shade-950="#015b8c" shade-975="#015989" shade-DEFAULT="#5098d8"/>
             </dmdesignskill>
             <dmdesignskill skill="fonts" family_1="Ubuntu" family_2="IBM Plex Serif"></dmdesignskill>
-            <dmdesignskill skill="background" image_for_colors advanced="true" filter_blur="0" filter_brightness="100" filter_contrast="100" filter_grayscale="0" filter_hue-rotate="0" filter_invert="0" filter_opacity="100" filter_saturate="100" filter_sepia="0" image="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDE3fHx3YWxscGFwZXJ8ZW58MHx8fHwxNjg0MDMwOTQ5fDA&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1200&fit=max" selector=".poster"></dmdesignskill>
+            <dmdesignskill skill="background" image_for_colors advanced="true" filter_blur="0" filter_brightness="100" filter_contrast="100" filter_grayscale="0" filter_hue-rotate="0" filter_invert="0" filter_opacity="100" filter_saturate="100" filter_sepia="0" image="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDE3fHx3YWxscGFwZXJ8ZW58MHx8fHwxNjg0MDMwOTQ5fDA&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1200&fit=max" selector=".poster" keyword="lakeside house"></dmdesignskill>
         </dmdesign>
     </dmdesigns>
     <dmlocked tw-colors-gray="true" tw-colors-red="true" tw-colors-yellow="true" tw-colors-green="true" tw-colors-blue="true" tw-colors-indigo="true" tw-colors-purple="true" tw-colors-pink="true" tw-colors-error="true" tw-colors-neutral="true" tw-colors-success="true" tw-colors-warning="true" tw-colors-info="true"></dmlocked>
