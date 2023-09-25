@@ -8,24 +8,22 @@
 //   window.devtools = devtools
 // }
 
-import 'uno.css'
-
-import { createApp } from 'vue'
-import { createPinia } from 'pinia'
-import { createHead } from '@vueuse/head'
-
-import App from './App.vue'
-import router from './router'
-
-import 'uno.css'
 import '@/assets/css/tailwind.css'
 import '@/assets/css/shiki.css'
 
-const app = createApp(App)
-const head = createHead()
+import 'uno.css'
 
-app.use(createPinia())
+import { createApp } from 'vue'
+import pinia from '@/plugins/pinia'
+import head from '@/plugins/head'
+
+import App from '@/App.vue'
+import router from '@/router'
+
+const app = createApp(App)
+
 app.use(router)
+app.use(pinia)
 app.use(head)
 
 app.mount('#app')

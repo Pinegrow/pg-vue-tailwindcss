@@ -8,10 +8,11 @@
   },
   "scripts": {
     "dev": "vite",
+    "now": "npm run build && npm run preview",
+    "lighthouse": "npx unlighthouse --site https://pg-vue-tailwindcss.netlify.app",
     "build": "run-p type-check build-only",
     "preview": "vite preview",
     "build-only": "vite build",
-    "now": "npm run build && npm run preview",
     "type-check": "vue-tsc --noEmit",
     "vue-devtools": "vue-devtools",
     "lint": "npm run lint:fix && npm run format",
@@ -21,7 +22,9 @@
   "dependencies": {
     "@vueuse/core": "^10.1.2",
     "@vueuse/head": "^1.1.26",
+    "lite-youtube-embed": "^0.2.0",
     "pinia": "^2.0.35",
+    "vee-validate": "^4.11.6",
     "vue": "^3.3.0",
     "vue-router": "^4.1.6"
   },
