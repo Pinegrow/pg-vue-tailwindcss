@@ -1,19 +1,20 @@
 <script setup lang="ts">
-  import { computed } from 'vue'
-  import site from '@/site'
   import { useHead, useSeoMeta } from 'unhead'
   import { useRoute } from 'vue-router/auto'
+
   import checkDarkTheme from '@/composables/dark-color-scheme-check?raw'
   import type { Script } from '@unhead/schema'
   type TurboScript = Script & { once: true }
 
+  import site from '@/site'
+  import image from '@/screenshots/image.jpg'
   import { pg_font_urls } from '~~/themes/pg-tailwindcss/tokens.mjs'
 
   const link: any = [
     {
       rel: 'icon',
       type: 'image/x-icon',
-      href: '/favicon.ico',
+      href: '/favicon.svg',
     },
   ]
   const noscript: any = []
@@ -38,43 +39,53 @@
     )
   }
 
-  const { title, description, author } = site
+  const { title, description, url, author } = site
   const route = useRoute()
 
+  const imgUrl = new URL(image, import.meta.url).href
+
   useSeoMeta({
-    title,
-    ogTitle: title,
+    // charset: 'utf-8',
+    // author,
+    // viewport: 'width=device-width, initial-scale=1',
+    // keywords: route.meta.tags?.toString(),
+    // title,
     description,
+    ogTitle: title,
     ogDescription: description,
-    ogImage: 'https://example.com/image.png',
+    ogImage: imgUrl,
+    ogImageAlt: title,
+    // og:image:width
+    // og:image:height
+    // og:image:alt
+    // og:image: type
+    // og:image: secure_url
+    ogUrl: url,
+    ogSiteName: title,
+    // og: locale
+    // og: type
+    twitterTitle: title,
+    twitterDescription: description,
+    twitterImage: imgUrl,
+    twitterImageAlt: title,
+    twitterSite: url,
     twitterCard: 'summary_large_image',
   })
 
   useHead({
-    title: computed(() => route.meta.title),
+    // title,
     titleTemplate: (titleChunk) => {
       return titleChunk ? `${titleChunk} - ${title}` : title
     },
     htmlAttrs: { lang: 'en-US' },
     meta: [
-      { property: 'keywords', content: route.meta.tags?.toString() },
-      { property: 'author', content: author },
+      { name: 'charset', content: 'utf-8' },
       {
-        property: 'twitter:image',
-        content: 'https://icons.vuetelescope.com/vue.svg',
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1',
       },
-      {
-        property: 'twitter:image:alt',
-        content: 'Vue',
-      },
-      {
-        property: 'twitter:site',
-        content: '@pinegrow',
-      },
-      {
-        property: 'twitter:card',
-        content: 'summary',
-      },
+      { name: 'author', content: author },
+      { name: 'keywords', content: route.meta.tags?.toString() },
     ],
     script: [{ innerHTML: checkDarkTheme, once: true } as TurboScript],
     link,

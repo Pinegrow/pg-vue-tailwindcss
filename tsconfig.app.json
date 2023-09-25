@@ -4,6 +4,7 @@
     "env.d.ts",
     "src/**/*",
     "src/**/*.vue",
+    "src/*",
     "components.d.ts",
     "auto-imports.d.ts",
     "typed-router.d.ts",
