@@ -15,6 +15,21 @@
   })
 </script>
 <template>
-  <main><span>A Fresh Start!</span></main>
+  <div>
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1.5rem /* 24px */;
+        padding-bottom: 1.5rem /* 24px */;
+      "
+    >
+      <DarkModeSwitch /><span style="margin-left: 0.5rem; /* 8px */"
+        >A Fresh Start!</span
+      >
+    </div>
+  </div>
 </template>
 <style scoped></style>
