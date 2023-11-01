@@ -19,31 +19,10 @@ import Shiki from 'markdown-it-shiki'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    liveDesigner({
-      iconPreferredCase: 'unocss', // default value (can be removed), unocss by default uses the unocss format for icon names
-      devtoolsKey: 'devtools',
-      tailwindcss: {
-        configPath: 'tailwind.config.ts',
-        cssPath: '@/assets/css/tailwind.css',
-        // themePath: false, // Set to false so that Design Panel is not used
-        // restartOnConfigUpdate: true,
-        restartOnThemeUpdate: true,
-      },
-      // plugins: [
-      //   {
-      //     name: 'My Awesome Lib 3.0',
-      //     key: 'my-awesome-lib',
-      //     pluginPath: fileURLToPath(
-      //       new URL('./my-awesome-lib/web-types.json', import.meta.url),
-      //     ),
-      //   },
-      // ],
-    }),
     VueRouter({
       // routesFolder: 'src/pages', // default
       dts: 'typed-router.d.ts',
     }),
-    // VueDevTools(),
     /* IMPORTANT: Vue must be placed after VueRouter()  */
     Vue({
       include: [/\.vue$/, /\.md$/],
@@ -121,6 +100,27 @@ export default defineConfig({
           prefix: 'i-', // default prefix, do not change
         }),
       ],
+    }),
+    // VueDevTools(),
+    liveDesigner({
+      iconPreferredCase: 'unocss', // default value (can be removed), unocss by default uses the unocss format for icon names
+      devtoolsKey: 'devtools',
+      tailwindcss: {
+        configPath: 'tailwind.config.ts',
+        cssPath: '@/assets/css/tailwind.css',
+        // themePath: false, // Set to false so that Design Panel is not used
+        // restartOnConfigUpdate: true,
+        restartOnThemeUpdate: true,
+      },
+      // plugins: [
+      //   {
+      //     name: 'My Awesome Lib 3.0',
+      //     key: 'my-awesome-lib',
+      //     pluginPath: fileURLToPath(
+      //       new URL('./my-awesome-lib/web-types.json', import.meta.url),
+      //     ),
+      //   },
+      // ],
     }),
   ],
   resolve: {
