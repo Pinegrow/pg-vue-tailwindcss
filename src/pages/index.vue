@@ -15,10 +15,10 @@
   })
 </script>
 <template>
-  <main>
+  <div>
     <HeroSection />
     <AboutTemplate />
     <WalkThrough />
-  </main>
+  </div>
 </template>
 <style scoped></style>
