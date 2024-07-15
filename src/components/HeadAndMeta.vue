@@ -4,11 +4,12 @@
 
   import checkDarkTheme from '@/composables/dark-color-scheme-check?raw'
   import type { Script } from '@unhead/schema'
-  type TurboScript = Script & { once: true }
 
   import site from '@/site'
   import image from '@/screenshots/image.jpg'
   import { pg_font_urls } from '~~/themes/pg-tailwindcss/tokens.mjs'
+
+  type TurboScript = Script & { once: true }
 
   const link: any = [
     {
