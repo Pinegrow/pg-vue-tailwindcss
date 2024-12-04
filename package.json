@@ -2,6 +2,7 @@
   "name": "pg-vue-tailwindcss",
   "version": "0.0.0",
   "homepage": "https://pg-vue-tailwindcss.netlify.app",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/pinegrow/pg-vue-tailwindcss.git"
@@ -31,8 +32,8 @@
   },
   "devDependencies": {
     "@iconify/json": "^2.2.64",
-    "@pinegrow/tailwindcss-plugin": "^3.0.29",
-    "@pinegrow/vite-plugin": "^3.0.60",
+    "@pinegrow/tailwindcss-plugin": "^3.0.33",
+    "@pinegrow/vite-plugin": "^3.0.65",
     "@rushstack/eslint-patch": "^1.2.0",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.9",
