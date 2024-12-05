@@ -1,11 +1,11 @@
 <script setup lang="ts">
-  import { isCurrentRoute } from '@/composables/nav'
+  import { isCurrentRoute } from '@/composables/nav-menu'
 
   defineProps({
     navlinks: {
       type: Object,
       default() {
-        return []
+        return {}
       },
     },
     currentPath: {
