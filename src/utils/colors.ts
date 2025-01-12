@@ -118,8 +118,7 @@ const safelistComponentAliasesMap = {
 
 const colorsAsRegex = (colors: string[]): string => colors.join('|')
 
-// @ts-ignore
-type ColorConfig = Exclude<TWConfig['theme']['colors'], Function>
+type ColorConfig = Exclude<TWConfig['theme']['colors'], () => void>
 
 export const excludeColors = (
   colors: ColorConfig | typeof defaultColors,

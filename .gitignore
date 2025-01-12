@@ -30,6 +30,8 @@ coverage
 *.sln
 *.sw?
 
+.vite-ssg-temp
+
 # Pinegrow
 _pgbackup
 _pginfo
