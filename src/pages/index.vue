@@ -1,6 +1,4 @@
 <script setup lang="ts">
-  import { useHead } from 'unhead'
-
   definePage({
     name: 'home',
     // alias: ['home'],
@@ -8,10 +6,6 @@
       title: 'Home',
       navOrder: 1,
     },
-  })
-
-  useHead({
-    title: 'Home',
   })
 </script>
 <template>

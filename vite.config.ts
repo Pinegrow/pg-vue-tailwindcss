@@ -1,3 +1,5 @@
+/// <reference types="vite-ssg" />
+
 import { fileURLToPath, URL } from 'node:url'
 
 import { defineConfig } from 'vite'
@@ -10,6 +12,7 @@ import { VueRouterAutoImports } from 'unplugin-vue-router'
 import Layouts from 'vite-plugin-vue-layouts'
 import Unocss from 'unocss/vite'
 import presetIcons from '@unocss/preset-icons'
+import { unheadVueComposablesImports } from '@unhead/vue'
 
 import Markdown from 'unplugin-vue-markdown/vite'
 import LinkAttributes from 'markdown-it-link-attributes'
@@ -20,6 +23,13 @@ import VueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  ssgOptions: {
+    beastiesOptions: {
+      // E.g., change the preload strategy
+      preload: 'media',
+      // Other options: https://github.com/danielroe/beasties#usage
+    },
+  },
   plugins: [
     VueRouter({
       // routesFolder: 'src/pages', // default
@@ -68,7 +78,7 @@ export default defineConfig({
         VueRouterAutoImports, // Remove 'vue-router',
         // 'vue-i18n',
         // 'vue/macros',
-        '@vueuse/head',
+        unheadVueComposablesImports,
         '@vueuse/core',
         'pinia',
       ],
@@ -112,7 +122,6 @@ export default defineConfig({
     VueDevTools(),
     liveDesigner({
       iconPreferredCase: 'unocss', // default value (can be removed), unocss by default uses the unocss format for icon names
-      devtoolsKey: 'devtoolsKey',
       tailwindcss: {
         configPath: 'tailwind.config.ts',
         cssPath: '@/assets/css/tailwind.css',

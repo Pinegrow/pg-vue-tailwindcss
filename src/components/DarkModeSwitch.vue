@@ -14,14 +14,12 @@
           v-if="isDark"
           name="i-material-symbols-dark-mode-outline"
           height="24px"
-        >
-        </BaseIcon>
+        />
         <BaseIcon
           v-else
           name="i-material-symbols-light-mode-outline"
           height="24px"
-        >
-        </BaseIcon>
+        />
       </transition>
     </BaseButton>
   </div>

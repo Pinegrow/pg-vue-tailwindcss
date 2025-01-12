@@ -1,6 +1,13 @@
 <script setup lang="ts">
-  import '@/plugins/youtube.client'
   import vueDesignerLogo from '@/assets/images/vue-designer.svg'
+
+  // https://debbie.codes/blog/nuxt-lite-youtube-embeds/
+  import liteYoutubeEmbed from 'lite-youtube-embed?raw'
+  import 'lite-youtube-embed/src/lite-yt-embed.css'
+  useHead({
+    script: [{ innerHTML: liteYoutubeEmbed }],
+  })
+
   const showTitle = ref(true)
 </script>
 <template>

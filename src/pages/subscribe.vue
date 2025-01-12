@@ -1,16 +1,10 @@
 <script setup lang="ts">
-  import { useHead } from 'unhead'
-
   definePage({
     name: 'subscribe',
     meta: {
       title: 'Subscribe',
       navOrder: 3,
     },
-  })
-
-  useHead({
-    title: 'Subscribe',
   })
 </script>
 <template>

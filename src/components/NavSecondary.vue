@@ -1,13 +1,11 @@
 <script setup lang="ts">
-  import { useMobileMenu } from '@/composables/mobile-menu'
-  import { isCurrentRoute } from '@/composables/nav-menu'
   const { isMobileMenuOpen } = useMobileMenu()
 
   defineProps({
-    navlinks: {
-      type: Object,
+    navs: {
+      type: Array,
       default() {
-        return {}
+        return []
       },
     },
     currentPath: {
@@ -24,16 +22,16 @@
     >
       <div class="space-y-1">
         <BaseButton
-          v-for="(navlink, index) in navlinks"
+          v-for="(nav, index) in navs"
           :key="index"
-          :to="navlink.link"
-          :variant="isCurrentRoute(navlink, currentPath) ? 'solid' : 'ghost'"
+          :to="nav.to"
+          :variant="nav.to === currentPath ? 'solid' : 'ghost'"
           block
           class="!rounded-lg whitespace-nowrap"
           size="md"
           @click="isMobileMenuOpen = !isMobileMenuOpen"
         >
-          <span class="w-full sm:text-center">{{ navlink.text }}</span>
+          <span class="w-full sm:text-center">{{ nav.title }}</span>
         </BaseButton>
       </div>
     </div>

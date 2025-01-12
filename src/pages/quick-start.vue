@@ -1,5 +1,4 @@
 <script setup lang="ts">
-  import { useHead } from 'unhead'
   import QuickStart from '@/content/index.md'
 
   definePage({
@@ -8,10 +7,6 @@
       title: 'Quick Start',
       navOrder: 2,
     },
-  })
-
-  useHead({
-    title: 'Quick Start',
   })
 </script>
 <template>
