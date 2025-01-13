@@ -1,4 +1,4 @@
-import { useHead, useServerSeoMeta } from '@unhead/vue'
+import { useHead, useSeoMeta } from '@unhead/vue'
 import { useSchemaOrg, defineWebSite, defineWebPage } from '@unhead/schema-org'
 
 import siteMeta from '@/site'
@@ -86,7 +86,7 @@ export const useHeadAndMeta = (pageMeta: ComputedRef) => {
     // Other unused params - titleTemplate, templateParams
     titleTemplate: null,
 
-    // Instead of setting other meta here, useServerSeoMeta is used.
+    // Instead of setting other meta here, useSeoMeta is used.
     meta: [
       {
         name: 'twitter:url',
@@ -126,7 +126,7 @@ export const useHeadAndMeta = (pageMeta: ComputedRef) => {
   }
 
   // Manage head meta with useSeoMeta
-  useServerSeoMeta({
+  useSeoMeta({
     title,
     description,
     author,
