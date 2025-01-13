@@ -23,9 +23,6 @@ export default createConfigForNuxt(
     linterOptions: {
       reportUnusedDisableDirectives: 'off',
     },
-    parserOptions: {
-      ecmaVersion: 'latest',
-    },
     globals: {
       definePage: 'readonly',
     },
@@ -42,7 +39,6 @@ export default createConfigForNuxt(
       '@typescript-eslint/ban-ts-comment': 'off',
       '@typescript-eslint/no-explicit-any': 'off',
       '@typescript-eslint/no-unused-vars': 'off',
-      'vue/multi-word-component-names': 'off',
     },
   })
   .override('nuxt/vue/rules', {
